@@ -271,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4114086625399783370, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4114086625399783370, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}
       propertyPath: m_LocalPosition.y
@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4114086625399783370, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4114086625399783370, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}
       propertyPath: m_LocalRotation.w
@@ -311,7 +311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4114086625399783374, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}
       propertyPath: m_Name
-      value: Step
+      value: Platform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1525d43c3829bbc44bb5354e0a8b6102, type: 3}

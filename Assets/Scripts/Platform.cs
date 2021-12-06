@@ -22,7 +22,7 @@ public class Platform : MonoBehaviour
     }
     public Vector2 RandomOnUnitCircle2(float radius)
     {
-        Vector2 randomPointOnCircle = Random.insideUnitCircle;
+        Vector2 randomPointOnCircle = Random.insideUnitCircle.normalized;
         randomPointOnCircle.Normalize();
         randomPointOnCircle *= radius;
         transform.position = randomPointOnCircle;

@@ -7,12 +7,13 @@ public class PlatformGenerator : MonoBehaviour
     [SerializeField] GameObject platformPrefab;
     [SerializeField] GameObject firstPlatform;
     [SerializeField] GameObject lastPlatform;
-    public GameObject[] platforms = new GameObject[2];
-    
+    public GameObject[] platforms;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject[] platforms = new GameObject[2];
+        lastPlatform = platforms[1]; 
         Vector3 spawnPosition = new Vector3();
         for (int i = 0; i < 1; i++)
         {
@@ -21,7 +22,7 @@ public class PlatformGenerator : MonoBehaviour
             //spawnPosition.x = Random.Range(-5f, 5f);
             //spawnPosition.y += Random.Range(2f, 4f);
 
-            
+
 
             Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
 
@@ -35,10 +36,7 @@ public class PlatformGenerator : MonoBehaviour
         int platformsLength = platforms.Length;
         for (int i = 0; i < platformsLength; i++)
         {
-            if (platforms[i].Length)
-            {
-
-            }
+            
         }
 
     }
